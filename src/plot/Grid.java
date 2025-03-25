@@ -17,7 +17,6 @@ public class Grid {
 
     @Override
     public String toString() {
-        return String.format("Grid[visible=%b, style=%s, color=%s]", 
-               visible, style, color);
+        return String.format("Grid[visible=%b, style=%s, color=%s]", visible, style, color);
     }
 }

@@ -1,7 +1,7 @@
 package test;
 
-import vehicles.*;
 import engine.Engine;
+import vehicles.*;
 
 public class AutoBaseTest {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class AutoBaseTest {
         base.addCar(car1);
         base.addCar(car2);
         
-        System.out.println("Available cars:");
+        System.out.println("Доступные машины:");
         for (Car car : base.getAvailableCars()) {
             System.out.println(car);
         }

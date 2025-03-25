@@ -14,7 +14,6 @@ public class Legend {
 
     @Override
     public String toString() {
-        return String.format("Legend[visible=%b, position=%s]", 
-               visible, position);
+        return String.format("Legend[visible=%b, position=%s]", visible, position);
     }
 }
